@@ -1,0 +1,49 @@
+## Client .gitignore
+
+# dependencies
+/client/**/node_modules
+# roadhog-api-doc ignore
+/client/src/utils/request-temp.js
+/client/_roadhog-api-doc
+
+# production
+/client/dist
+/client/.vscode
+
+# misc
+/client/.DS_Store
+/client/npm-debug.log*
+/client/yarn-error.log
+
+/client/coverage
+/client/.idea
+/client/yarn.lock
+/client/package-lock.json
+/client/*bak
+/client/.vscode
+
+# visual studio code
+/client/.history
+/client/*.log
+/client/functions/*
+/client/.temp/**
+
+# umi
+/client/.umi
+/client/.umi-production
+
+# screenshot
+/client/screenshot
+/client/.firebase
+/client/.eslintcache
+
+/client/build
+/client/.env
+
+## Server .gitignore
+/server/node_modules
+/server/package-lock.json
+/server/.env
+/server/.vscode
+/server/public
+/server/dist

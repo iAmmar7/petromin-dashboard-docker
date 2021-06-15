@@ -1,0 +1,6 @@
+[submodule "client"]
+	path = client
+	url = https://github.com/iAmmar7/Petromin-FE.git
+[submodule "server"]
+	path = server
+	url = https://github.com/iAmmar7/Petromin-BE.git
